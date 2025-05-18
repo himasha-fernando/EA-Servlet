@@ -1,0 +1,47 @@
+<!--
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+version="3.0">
+<servlet>
+<servlet-name>DisplayMessageServlet</servlet-name>
+<servlet-class>com.example.DisplayMessageServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>DisplayMessageServlet</servlet-name>
+<url-pattern>/displayMessage</url-pattern>
+</servlet-mapping>
+</web-app>-->
+
+
+
+<!--<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    
+    <servlet>
+        <servlet-name>GetUserInputServlet</servlet-name>
+        <servlet-class>com.example.GetUserInputServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>GetUserInputServlet</servlet-name>
+        <url-pattern>/getUserInput</url-pattern>
+    </servlet-mapping>
+
+</web-app>-->
+
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    
+    <servlet>
+        <servlet-name>CalculateSumServlet</servlet-name>
+        <servlet-class>com.example.CalculateSumServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CalculateSumServlet</servlet-name>
+        <url-pattern>/calculateSumServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
