@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>StockManagementServlet</servlet-name>
+    <servlet-class>com.example.StockManagementServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>StockManagementServlet</servlet-name>
+    <url-pattern>/stockAction</url-pattern>
+</servlet-mapping>
